@@ -7,9 +7,10 @@ load_dotenv()
 
 # Model names
 models = {
-    "mixtral-8x7b-32768": "Mixtral 8x7b 32768",
-    "llama-3.1-70b-versatile": "Llama3.1 70b 8192",
-    "gemma-7b-it": "Gemma 7b IT"
+    "deepseek-r1-distill-llama-70b": "Deepseek R1 Distill Llama 70b",
+    "llama-3.1-8b-instant": "Llama3.1 8b Instant",
+    "gemma2-9b-it": "Gemma 2 9b IT",
+    "qwen-2.5-32b": "Qwen 2.5 32b"
 }
 
 # Test each model

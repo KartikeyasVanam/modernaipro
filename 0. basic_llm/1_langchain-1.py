@@ -6,5 +6,5 @@ from langchain_community.llms import Ollama
 llm = Ollama(model="gemma2:2b") # try qwen2 / llama3 if you have that model
 
 
-for chunks in llm.stream("History of india in 3 sentences"):
-    print(chunks, end='\n')
+for chunks in llm.stream("How to make a pizza?"):
+    print(chunks, end='')
